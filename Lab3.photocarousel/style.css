@@ -1,0 +1,80 @@
+
+
+body {
+  font-family:'Times New Roman';
+  background-color:black;
+  color: white;
+  margin: 0px;
+  text-align: center;
+}
+
+.hero {
+    padding: 30px 20px;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.eyebrow {
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.intro {
+ font-size: 20px;
+}
+
+.story { 
+  margin: auto;
+  padding: 30px;
+}
+
+.image-sequence {
+ display: flex; 
+ align-items: center;
+ align-items: flex-start;
+ gap: 35px;
+ margin: 30px auto;
+}
+
+.door-card {
+    max-width: 300px;
+}
+
+.door-card img {
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 3px;
+}
+
+.door-card p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#door-message {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    color: lightsteelblue;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:lightsteelblue;
+}
